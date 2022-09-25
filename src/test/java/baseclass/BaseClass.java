@@ -48,7 +48,7 @@ public class BaseClass {
 	    		driver = new FirefoxDriver();  	    		
 	    	}
 	    	driver.manage().window().maximize();
-	    	driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
+	    	driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 	    	//driver.get(prop.getProperty("url"));
 	    } 
 
